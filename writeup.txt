@@ -1,0 +1,13 @@
+Culinary AI – Technical Approach (~200 words)
+
+I architected this as a modern, AI-powered recipe discovery platform with a focus on intelligent matching and user experience. The application uses React 18 with Vite for optimal performance and development experience, featuring a sophisticated dark theme UI with glassmorphism effects.
+
+The core innovation lies in the fuzzy matching algorithm using Fuse.js, which provides intelligent ingredient recognition beyond exact matches. The system supports multiple matching strategies: exact matches (100% confidence), substitutions (90%), fuzzy matching (70%), and partial matching (50%). This creates a composite scoring system that weights both ingredient coverage and match confidence.
+
+For image recognition, I implemented a mock AI service that simulates advanced ingredient classification with confidence scoring, replacing the previous TensorFlow.js approach. The system now includes 25+ authentic global recipes with detailed nutritional information and comprehensive dietary tags.
+
+The application features three main sections: recipe discovery, meal planning, and shopping list generation. The meal planner allows users to schedule recipes across the week, while the shopping list automatically categorizes ingredients and tracks quantities. The UI uses a tabbed navigation system with responsive design principles.
+
+State management leverages React hooks with localStorage persistence for user preferences. The matching algorithm includes bonus scoring for recipes with multiple matched ingredients, and the system provides detailed match explanations to users. Deployment is optimized for static hosting with zero-configuration builds.
+
+
