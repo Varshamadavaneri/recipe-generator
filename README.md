@@ -1,54 +1,66 @@
 Culinary AI - Smart Recipe Discovery Platform
-==============================================
 
-A modern React application that revolutionizes recipe discovery through advanced AI-powered ingredient recognition and intelligent matching algorithms. Features a sleek dark theme UI with glassmorphism design, comprehensive meal planning, and automated shopping list generation.
+A modern React application that revolutionizes recipe discovery through advanced AI-powered ingredient recognition and intelligent matching algorithms. It features a sleek dark theme UI with glassmorphism design, comprehensive meal planning, and automated shopping list generation — all optimized for performance and accessibility.
+
+🌐 Live Demo: https://sparkly-snickerdoodle-b3abc3.netlify.app/
 
 Tech Stack
-----------
-- React 18 + Vite
-- TypeScript-ready architecture
-- TailwindCSS with custom gradients
-- Fuse.js for fuzzy matching
-- Axios for API integration
-- Advanced AI simulation engine
+
+Frontend: React 18 + Vite
+
+Styling: TailwindCSS with custom gradients
+
+Matching Engine: Fuse.js for fuzzy search and ingredient matching
+
+Networking: Axios for API integration
+
+AI Simulation: Advanced ingredient recognition and confidence scoring
+
+TypeScript-ready architecture
 
 Core Features
--------------
-- **AI-Powered Ingredient Recognition**: Advanced image classification with confidence scoring
-- **Fuzzy Recipe Matching**: Intelligent ingredient matching with substitution support
-- **Meal Planning System**: Weekly meal planner with drag-and-drop functionality
-- **Smart Shopping Lists**: Auto-generated categorized shopping lists from meal plans
-- **Global Cuisine Database**: 25+ authentic recipes from 15+ countries
-- **Advanced Filtering**: Multi-criteria filtering (dietary, time, difficulty, cuisine)
-- **User Preferences**: Favorites, ratings, and personalized recommendations
-- **Responsive Design**: Mobile-first design with dark theme and glassmorphism effects
+
+AI-Powered Ingredient Recognition: Classifies ingredients from uploaded images with confidence scoring
+
+Fuzzy Recipe Matching: Suggests recipes based on available ingredients with substitution support
+
+Meal Planning System: Intuitive drag-and-drop weekly meal planner
+
+Smart Shopping Lists: Automatically generates categorized shopping lists from selected meals
+
+Global Cuisine Database: Includes 25+ authentic recipes from 15+ countries
+
+Advanced Filtering: Multi-criteria filtering (dietary, cuisine, preparation time, difficulty)
+
+User Preferences: Save favorites, add ratings, and receive personalized suggestions
+
+Responsive Design: Fully mobile-first layout with elegant glassmorphism effects
 
 Getting Started
----------------
-
-```bash
 cd frontend
 npm install
 npm run dev
-```
 
-Visit http://localhost:5173 to explore the application.
+
+Visit http://localhost:5173
+ to explore the application locally.
 
 Build & Deploy
---------------
-```bash
 npm run build
 npm run preview
-```
 
-Deploy to Vercel/Netlify:
-- Build command: `npm run build`
-- Publish directory: `dist`
-- Environment: Node.js 18+
+
+Deployment (Netlify):
+
+Build command: npm run build
+
+Publish directory: dist
+
+Environment: Node.js 18+
+
+Live Deployment: https://sparkly-snickerdoodle-b3abc3.netlify.app/
 
 Project Architecture
---------------------
-```
 src/
 ├── components/
 │   ├── ImageClassifier.jsx    # AI-powered image recognition
@@ -64,22 +76,27 @@ src/
 │   ├── recommendations.js     # AI-powered recommendations
 │   └── storage.js             # Local storage management
 └── App.jsx                    # Main application with tab navigation
-```
 
 Key Innovations
----------------
-- **Fuzzy Matching Algorithm**: Uses Fuse.js for intelligent ingredient matching
-- **Confidence Scoring**: AI predictions include confidence levels and match details
-- **Meal Planning Integration**: Seamless connection between recipes and meal planning
-- **Smart Categorization**: Automatic ingredient categorization for shopping lists
-- **Glassmorphism UI**: Modern design with backdrop blur and transparency effects
+
+Fuzzy Matching Algorithm: Leverages Fuse.js for intelligent ingredient matching
+
+Confidence Scoring: AI predictions include confidence levels and match explanations
+
+Meal Planning Integration: Connects recipes seamlessly to the weekly planner
+
+Smart Categorization: Automatically groups ingredients in shopping lists
+
+Glassmorphism UI: Sleek, modern interface with soft transparency and blur effects
 
 Technical Highlights
---------------------
-- Advanced state management with React hooks
-- Responsive design with mobile-first approach
-- Performance optimized with useMemo and lazy loading
-- Accessibility compliant with semantic HTML
-- TypeScript-ready codebase structure
 
+Advanced state management with React hooks
 
+Mobile-first responsive layout
+
+Performance-optimized using useMemo and lazy loading
+
+Accessibility-first approach with semantic HTML
+
+TypeScript-ready modular architecture
